@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resonance Music Logo</title>
+  <style>
+    /* CSS for Resonance Music logo */
+    .resonance-logo {
+      width: 200px;
+      height: 200px;
+      background-color: #000;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .resonance-logo::before {
+      content: 'R';
+      font-size: 80px;
+      color: #ffca28;
+      font-weight: bold;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .resonance-logo::after {
+      content: 'MUSIC';
+      font-size: 20px;
+      color: #fff;
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body> 
+    <center> <div class="resonance-logo"></div></center>
+ 
+</body>
+</html>
+
